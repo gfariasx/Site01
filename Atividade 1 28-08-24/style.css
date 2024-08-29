@@ -1,0 +1,57 @@
+body{
+    background-color: dodgerblue;
+    padding-bottom: 20px;
+}
+
+main{
+    background-color: white;
+    width: 80% ;
+    margin: 50px auto ;
+    padding: 60px ;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#download {
+    margin: 0% auto;
+    width: 100%;
+    max-width:1200px ;
+
+
+}
+
+#imagem img {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    max-width: 1200px;
+   margin: 0% auto;
+
+}
+
+h2{
+    text-align: center;
+}
+   
+h3{
+    text-align: center;
+}
+
+a{
+    display:block;
+    text-align: end;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    
+}
