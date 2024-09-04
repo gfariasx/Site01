@@ -160,7 +160,7 @@ section#menuIcons #img4 {
 /* ######### Sessão Cafés ######### */
 
 section#coffees {
-  height: 800px;
+  
   background: var(--offwhite);
   color: var(--frontcolor);
 }
@@ -176,6 +176,8 @@ section#coffees h2 {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .gridCoffee:last-child {
@@ -320,7 +322,7 @@ section#clientes h2 {
 }
 
 #slideTestimony {
-    border: 1px solid red;
+    border: 1px solid;
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -333,3 +335,135 @@ section#clientes h2 {
     background: var(--background);
     box-shadow: 1px 1px 5px black (0 , 0 , 0 ,0.3);
 }
+
+/* ######### Sessão Subscribe ######### */
+
+section#subscribe {
+  display: flex;
+  background: var(--background);
+  height: 250px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: var(--fontcolor);
+  text-align: center;
+}
+
+section#subscribe > div{
+height: 100%;
+width: 25%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border: 1px solid red;
+}
+
+section#subscribe #subscriveDivC {
+  width: 50%;
+}
+
+section#subscribe #ubscriveDivC h2 , p {
+  text-align: center;
+}
+
+
+section#subscribe #subscriveDivC > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+section#subscribe #subscriveDivC input{
+  width: 65%;
+  height: 50px;
+}
+
+section#subscribe #subscriveDivC input::placeholder {
+  padding-left: 20px;
+}
+ 
+
+
+#subscribe input {
+  border-radius: 50px;
+  border: none;
+
+
+}
+
+
+section#subscribe a{
+  background: var(--fontcolor);
+  color: var(--offwhite);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 9999px;
+  display: block;
+  text-align: center;
+  height: 45px;
+  width: 150px;
+   }
+  
+
+
+#coffeeBg2-1 {
+  background: url(assets/coffeebg21.png) no-repeat center center/cover;
+  
+
+}
+
+#coffeeBg2-2 {
+  background: url(assets/coffeebg22.png) no-repeat center center/cover;
+}
+
+/* ######### Sessão footer######### */
+
+footer {
+  height: 250px;
+  background: var(--fontcolor);
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  color: var(--offwhite);
+}
+
+footer > div{
+  flex: 1;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--offwhite);
+  font-size: 8pt;
+  display: block;
+  margin: 10px 0;
+}
+
+
+@media (max-width:580px) {
+.gridCoffee {
+    justify-content: center;
+  }
+
+.gridCoffee> div {
+    margin-bottom: 10px;
+  }
+}
+
+#redes-sociais {
+ display: flex;
+}
+
+.redesocial {
+  height: 10px;
+  width: 10px;
+  display:block;
+}
+  
+
